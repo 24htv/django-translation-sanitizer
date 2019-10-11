@@ -7,7 +7,7 @@ Django Translation Sanitizer
 Rationale
 ---------
 When one first create the `*.po` files with the original `makemessages` command everything seems
-nice -- Django make clean file that one can easily edit via text editor. 
+nice -- Django makes clean file that one can easily edit via text editor. 
 
 The actual "mess" comes after command has been running several times -- 
 when Django tries to match previous translations of a changed original it often fails to do it correctly. 
